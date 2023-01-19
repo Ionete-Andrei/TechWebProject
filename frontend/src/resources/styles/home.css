@@ -1,0 +1,114 @@
+.container{
+    background: rgb(185,185,185);
+    background: linear-gradient(177deg, rgba(185,185,185,1) 0%, rgba(255,255,255,1) 100%);
+    width: 500px !important;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.friendRow{
+    /* background: rgb(185,185,185);
+    background: linear-gradient(177deg, rgba(185,185,185,1) 0%, rgba(255,255,255,1) 100%); */
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); 
+    width:80%;
+}
+
+.containerRow{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    width:200px;
+}
+
+.containerRowList{
+    list-style-type: circle;
+}
+
+.logoDiv{
+    background-image: url("../images/MealAgora.png");
+    background-repeat: no-repeat;
+	background-size: 75%;
+	background-position: center;
+    height: 180px;
+    width: 200px;
+    float: right;
+    position: relative;
+}
+
+.logoText{
+    padding-left: 250px;
+}
+
+.jumbotron-fluid {
+    background-image: url("../images/Homepage.png");
+    background-repeat: no-repeat;
+	background-size: stretch;
+	background-position: center;
+    height: 950px;   
+}
+
+.jumbotronRegister{
+    background-image: url("../images/fruitsVeggiesBG.jpg");
+    background-repeat: no-repeat;
+	background-size: stretch;
+	background-position: center;
+    height: 200px;
+    color: black;
+    font-family: cursive;
+}
+
+.jumbotronLogin{
+    background-image: url("../images/fruitsVeggiesBG2.jpg");
+    background-repeat: no-repeat;
+	background-size: stretch;
+	background-position: center;
+    height: 200px;
+    color: black;
+    font-family: cursive;
+}
+
+.jumbotron-fluid h1, .jumbotron-fluid p {
+    color: white;
+    text-shadow: .1em .1em .1em black;
+}
+
+.jumbotron-fluid h1 {
+    font-size: 3rem;
+}
+
+.jumbotron-fluid p {
+    font-size: 1.5rem;
+}
+
+.presentation-section {
+    width: 100%;
+}
+
+.presentation-section {
+    height: 40vh;
+}
+
+.presentation-section p {
+    font-weight: 700;
+    font-size: 1rem;
+    align-content: center;
+}
+
+.presentation-section img {
+    width: 150px;
+}
+
+@media only screen and (min-width: 768px) {
+    .jumbotron-fluid h1 {
+        font-size: 6rem;
+    }
+    
+    .jumbotron-fluid p {
+        font-size: 2.2rem;
+    }
+
+    .presentation-section p {
+        font-size: 1.5rem;
+    }
+
+    .presentation-section img {
+        width: 300px;
+    }
+}

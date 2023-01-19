@@ -1,0 +1,21 @@
+.product{
+
+    margin-top: 3%;
+    
+}
+
+#facebook{
+    width: 40px;
+    height: 40px;
+    margin-left: 20%;
+    cursor: pointer;
+}
+
+
+#instagram{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    
+}
+
